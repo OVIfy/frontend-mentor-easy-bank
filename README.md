@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [github URL](https://github.com/OVIfy/frontend-mentor-easy-bank)
+- Live Site URL: [space-Project](https://ovify.github.io/frontend-mentor-easy-bank/)
 
 ### Built with
 
