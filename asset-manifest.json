@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/frontend-mentor-easy-bank/static/css/main.e863571b.css",
+    "main.js": "/frontend-mentor-easy-bank/static/js/main.6a9248cc.js",
+    "index.html": "/frontend-mentor-easy-bank/index.html",
+    "main.e863571b.css.map": "/frontend-mentor-easy-bank/static/css/main.e863571b.css.map",
+    "main.6a9248cc.js.map": "/frontend-mentor-easy-bank/static/js/main.6a9248cc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e863571b.css",
+    "static/js/main.6a9248cc.js"
+  ]
+}
