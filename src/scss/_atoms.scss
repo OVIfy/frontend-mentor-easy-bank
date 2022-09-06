@@ -1,0 +1,83 @@
+@import '../scss/variables';
+
+.font1{
+font-size: $font1;
+}
+
+.font2{
+font-size: $font2;
+}
+
+.font3{
+font-size: $font3;
+
+}
+
+.font4{
+font-size: $font4;
+
+}
+
+.my3{
+margin-top: $margin3;
+margin-bottom: $margin3;
+}
+
+.my2{
+margin-top: $margin2;
+margin-bottom: $margin2;
+}
+
+.my1{
+    margin-top: $margin1;
+    margin-bottom: $margin1;
+}
+
+.mx3{
+    margin-left: $margin3;
+    margin-right: $margin3;
+    }
+    
+.mx2{
+    margin-left: $margin2;
+    margin-right: $margin2;
+}
+
+.mx1{
+    margin-left: $margin1;
+    margin-right: $margin1;
+}
+
+.mr2{
+    margin-right: $margin2;
+}
+
+.mg2x3{
+margin: $margin2*3 0px;
+}
+
+.pri{
+color:$pri-color;
+}
+
+// $max-size : 900;
+// $mid-size: 400;
+// $min-size : 100;
+
+.max-size{
+    font-weight: $max-size;
+}
+
+.mid-size{
+    font-weight: $mid-size;
+}
+
+.min-size{
+    font-weight: $min-size;
+}
+
+.ib{
+   display: inline-block;
+}
+
+

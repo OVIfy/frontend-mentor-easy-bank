@@ -1,0 +1,20 @@
+@import 'variables';
+@import './atoms';
+
+.circle{
+    width: 200px;
+    height: 200px;
+    background-color: $pri-color;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: $font3;
+    transition: transform 1s cubic-bezier(0.23, 1, 0.320, 1);
+    font-weight: 100;
+}
+
+.circle:hover{
+    cursor: pointer;
+    transform: scale(1.05) rotate(-360deg);
+}

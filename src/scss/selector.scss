@@ -1,0 +1,50 @@
+@import './variables';
+
+
+.selector{
+  color: $pri-color;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.item{
+
+  position: relative;
+  
+
+  &::after{
+    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 0%;
+    height: 2.5px;
+    border-radius: 100px;
+    left: 0px;
+    bottom: -5px;
+    background-color: white;
+    transition: all 0.2s ease-in;
+  }
+
+  &:hover{
+    cursor: pointer;
+    
+    &::after{
+       width: 100%;
+    }
+  }
+
+  &.selected::after{
+    width: 80%;
+  }
+}
+
+@media (max-width:$mobile) {
+  .selector{
+    justify-content: center;
+  }
+
+  .item{
+    margin: 0px 0.5rem;
+  }
+}

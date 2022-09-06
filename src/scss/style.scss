@@ -1,0 +1,234 @@
+@import './variables';
+@import './atoms';
+@import './animations.scss';
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.parent{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: $margin2*3 0px;
+}
+
+.child{
+  flex-basis: 1000px;
+  display: flex;
+  // justify-content: space-between;
+  align-items: center;
+}
+
+.home-child{
+  flex-basis: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.align-to-bottom{
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+}
+.destination-heading{
+  color: $pri-color;
+  font-weight: $mid-size;
+  margin-bottom: $margin3;
+}
+.destination-cont{
+  display: flex;
+  width:100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.destination-child{
+  flex-basis: 1000px;
+  display: flex;
+  margin:0px $margin2 $margin3 $margin2;
+  flex-direction: column;
+}
+
+.destination-line{
+  width: 100%;
+}
+
+.destination-card{
+ 
+  
+}
+
+.img{
+  width: 90%;
+  transition: transform 1s ease-in-out;
+}
+
+.img:hover{
+  transform: scale(1.05) rotate(10deg);
+  cursor: pointer;
+}
+
+.cards-cont{
+ display: flex;
+ width: 100%;
+ 
+}
+
+.crew-parent{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.crew-child{
+  flex-basis: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  column-gap: 60px;
+  align-items: center;
+}
+
+.crew-bio{
+  grid-column: 1;
+  grid-row: 2;
+  align-self: center;
+}
+
+.crew-img{
+   grid-column: 2;
+   grid-row: 1;
+   grid-row-start: 1;
+   grid-row-end: 4;
+   width: 90%;
+   align-self: flex-end;
+}
+
+.tech-parent{
+  display: flex;
+  justify-content: flex-end;
+ 
+}
+
+.tech-child{
+  flex-basis: 90%;
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.tech-img{
+  grid-column: 2;
+  grid-row: 2;
+  justify-self: right;
+  width: 80%;
+  
+}
+
+.terminology-cont{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.pro2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.w100{
+  width: 100%;
+}
+
+.dest-card{
+  margin-right: $margin2;
+}
+
+
+@media (max-width:$mobile){
+  .home-child{
+   flex-direction: column;
+   text-align: center;
+  }
+
+  .parent{
+    margin: 0px;
+  }
+
+  .destination-cont{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .destination-heading{
+    margin: 0px;
+    font-size: $font4;
+    justify-self: left;
+  }
+  .img{
+    margin: $margin3 0px;
+  }
+  .cards-cont{
+     justify-content: space-evenly;
+
+  }
+  .dest-card{
+    margin: 0px;
+  }
+
+  .destination-line{
+     width: 90vw;
+  }
+
+  .crew-child{
+    // display: flex;
+    // flex-direction: column;
+    // text-align: center;
+
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto;
+    text-align: center;
+    
+  }
+
+
+
+  .crew-img{
+    width: 40%;
+    margin: $margin2 0px 0px 0px;
+    align-self: center;
+    grid-column: 1;
+    grid-row: 4;
+    justify-self: center;
+  } 
+
+  .tech-child{
+
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    
+  }
+
+  .tech-img{
+    grid-row: 2;
+    grid-column: 1;
+    justify-self: center;
+    margin: $margin1 0px;
+    width: 100vw;
+  }
+
+  .terminology-cont{
+    grid-column: 1;
+    grid-row: 3;
+    flex-direction: column;
+    text-align: center;
+  }
+}

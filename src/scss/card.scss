@@ -1,0 +1,18 @@
+@import './variables';
+@import './animations.scss';
+
+.card{
+   max-width: 300px;
+   min-width: 100%;
+}
+
+.title{
+    font-size: $font1;
+    animation: slide-right-anim 1s ease-in-out forwards;
+}
+
+.content{
+    font-size: $font4;
+    animation: slide-up-anim 1s ease-in-out forwards;
+}
+

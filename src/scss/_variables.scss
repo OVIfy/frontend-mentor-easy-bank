@@ -1,0 +1,36 @@
+
+//layout and spacing
+$base-margin : 30px;
+$pad1 : 2.5rem;
+
+$margin1:  1rem;
+$margin2:  2rem;
+$margin3 : 3rem;
+
+//colours
+$glass : rgba(235, 228, 228,0.4);
+$pri-color : white;
+
+//font-size
+$font1 : 3rem;
+$font2 : 2.5rem;
+$font3 : 1.5rem;
+$font4 : 1rem;
+
+//weight
+$max-size : 900;
+$mid-size: 400;
+$min-size : 100;
+
+//padding
+$padding1 : 1rem;
+$padding2 : 2rem;
+$padding3 : 3rem;
+
+$mobile : 700px;
+
+@media (max-width:$mobile) {
+  $font1: 3rem;
+}
+
+
