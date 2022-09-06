@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.css": "/frontend-mentor-easy-bank/static/css/main.e863571b.css",
-    "main.js": "/frontend-mentor-easy-bank/static/js/main.6a9248cc.js",
+    "main.css": "/frontend-mentor-easy-bank/static/css/main.57c27a70.css",
+    "main.js": "/frontend-mentor-easy-bank/static/js/main.c35c03d6.js",
+    "static/media/background-home-desktop.jpg": "/frontend-mentor-easy-bank/static/media/background-home-desktop.cdf3864ecbfdf20e8c3b.jpg",
+    "static/media/background-destination-desktop.jpg": "/frontend-mentor-easy-bank/static/media/background-destination-desktop.468b922c69bf5499b4bc.jpg",
+    "static/media/background-crew-desktop.jpg": "/frontend-mentor-easy-bank/static/media/background-crew-desktop.88a3c692fd34eb311e04.jpg",
+    "static/media/background-technology-desktop.jpg": "/frontend-mentor-easy-bank/static/media/background-technology-desktop.b7b589b3c0c5ef0811d4.jpg",
     "index.html": "/frontend-mentor-easy-bank/index.html",
-    "main.e863571b.css.map": "/frontend-mentor-easy-bank/static/css/main.e863571b.css.map",
-    "main.6a9248cc.js.map": "/frontend-mentor-easy-bank/static/js/main.6a9248cc.js.map"
+    "main.57c27a70.css.map": "/frontend-mentor-easy-bank/static/css/main.57c27a70.css.map",
+    "main.c35c03d6.js.map": "/frontend-mentor-easy-bank/static/js/main.c35c03d6.js.map"
   },
   "entrypoints": [
-    "static/css/main.e863571b.css",
-    "static/js/main.6a9248cc.js"
+    "static/css/main.57c27a70.css",
+    "static/js/main.c35c03d6.js"
   ]
 }
